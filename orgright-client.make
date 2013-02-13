@@ -2,7 +2,7 @@
 core = 6.x
 
 api = 2
-projects[drupal][version] = "6.28"
+projects[drupal] = "6.28"
 
 ; Profiles
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
@@ -11,3 +11,6 @@ projects[orgright_client][type] = "profile"
 projects[orgright_client][download][type] = "get"
 projects[orgright_client][download][url] = "https://github.com/orgright/client-profile/archive/6.x-1.2.tar.gz"
 
+; Include some additional useful modules
+projects[devel] = "1.27"
+projects[feedback] = "2.2"
